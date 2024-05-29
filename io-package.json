@@ -1,0 +1,85 @@
+{
+	"common": {
+		"name": "todo_manager",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Todo Manager",
+		"titleLang": {
+			"en": "Todo Manager",
+			"de": "Todo Manager",
+			"ru": "Todo Manager",
+			"pt": "Todo Manager",
+			"nl": "Todo Manager",
+			"fr": "Todo Manager",
+			"it": "Todo Manager",
+			"es": "Todo Manager",
+			"pl": "Todo Manager",
+			"zh-cn": "Todo Manager"
+		},
+		"desc": {
+			"en": "Manage your Todos with assigning to residents",
+			"de": "Manage your Todos with assigning to residents",
+			"ru": "Manage your Todos with assigning to residents",
+			"pt": "Manage your Todos with assigning to residents",
+			"nl": "Manage your Todos with assigning to residents",
+			"fr": "Manage your Todos with assigning to residents",
+			"it": "Manage your Todos with assigning to residents",
+			"es": "Manage your Todos with assigning to residents",
+			"pl": "Manage your Todos with assigning to residents",
+			"zh-cn": "Manage your Todos with assigning to residents"
+		},
+		"authors": [
+			"Sebastian Siepmann <sebastiansiepmann91@gmail.com>"
+		],
+		"keywords": [
+			"todo",
+			"residents"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "todo_manager.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/sluggyly1991/ioBroker.todo_manager/main/admin/todo_manager.png",
+		"readme": "https://github.com/sluggyly1991/ioBroker.todo_manager/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "misc-data",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "assumption",
+		"adminUI": {
+			"config": "materialize"
+		},
+		"eraseOnUpload": true,
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.0.0"
+			}
+		]
+	},
+	"native": {
+		"task": "",
+		"xxx": "xxx"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

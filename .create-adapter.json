@@ -1,0 +1,52 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "todo_manager",
+	"title": "Todo Manager",
+	"description": "Manage your Todos with assigning to residents",
+	"keywords": [
+		"todo",
+		"residents"
+	],
+	"authorName": "Sebastian Siepmann",
+	"authorGithub": "sluggyly1991",
+	"authorEmail": "sebastiansiepmann91@gmail.com",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "misc-data",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "assumption",
+	"connectionIndicator": "no",
+	"adapterSettings": [
+		{
+			"key": "task",
+			"label": "Aufgabe",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "xxx",
+			"label": "Other",
+			"inputType": "text",
+			"defaultValue": "xxx"
+		}
+	],
+	"language": "TypeScript",
+	"nodeVersion": "16",
+	"adminUi": "react",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "single",
+	"es6class": "yes",
+	"tools": [
+		"ESLint"
+	],
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
